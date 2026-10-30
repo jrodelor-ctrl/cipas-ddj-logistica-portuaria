@@ -1,0 +1,6 @@
+digraph G {graph [label="CIPAS DDJ  |  CASOS DE USO",labelloc=b,fontname="DejaVu Sans",fontsize=26,fontcolor="#c79a40",rankdir=LR,bgcolor="white",pad=.35];node[fontname="DejaVu Sans",fontsize=12]; edge[color="#1a4b7b"];
+operador [shape=box,label="Analista logístico",style=filled,fillcolor="#cde9d5"];
+admin [shape=box,label="Responsable de datos",style=filled,fillcolor="#d7e9fa"];
+subgraph cluster_s {label="Sistema de Analítica Portuaria";color="#b88b2f";style=rounded; upload [shape=ellipse,label="Cargar CSV"]; limpiar [shape=ellipse,label="Validar y depurar registros"]; filtrar[shape=ellipse,label="Filtrar tipo de carga y clima"]; kpi[shape=ellipse,label="Consultar indicadores KPI"]; comparar[shape=ellipse,label="Analizar tendencias y demoras"];alertar[shape=ellipse,label="Revisar alertas críticas"];exportar[shape=ellipse,label="Exportar datos y auditoría"];}
+admin->upload;admin->limpiar;admin->exportar;operador->filtrar;operador->kpi;operador->comparar;operador->alertar;upload->limpiar[style=dashed,label="incluye"];
+}
