@@ -26,13 +26,14 @@ Proyecto modular en Python usando como entorno Visual Studio Code. Datos académ
 - Las correlaciones entre clima y demoras no establecen causalidad.
 
 ## Ciencias de Datos I
-**Cipas DDJ**
-**Integrantes:**
-**Danis Daniel Barrero Romero**
-**Daniela Ramos Escudero**
-**Jaime Alberto Rodelo Ramirez**
-**V Semestre Ingenieria de Sotfware**
-**Universidad de Cartagena**
-**Centro Tutorial El Carmen de Bolivar**
-**Octubre 2026**
-**Periodo 2026-2**
+
+- **Cipas DDJ**
+- **Integrantes:**
+- **Danis Daniel Barrero Romero**
+- **Daniela Ramos Escudero**
+- **Jaime Alberto Rodelo Ramirez**
+- **V Semestre Ingenieria de Sotfware**
+- **Universidad de Cartagena**
+- **Centro Tutorial El Carmen de Bolivar**
+- **Octubre 2026**
+- **Periodo 2026-2**
